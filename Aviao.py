@@ -14,7 +14,7 @@ class  Aviao:
     def aceleracao(self):
         pass
 
-    def freagem(self):
+    def aterrissagem(self):
         pass
 
     def pneu(self):
@@ -35,3 +35,6 @@ class  Aviao:
             return self.aceleracao
         elif Torre.permissao_negada == True:
             print('Manter a posição')
+
+
+#fazer verificação de erro caso execeder a quantidade de bagagem e passageiros, contanto com a tripulação
